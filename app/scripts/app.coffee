@@ -89,7 +89,7 @@ angular.module('slick', [])
             onReInit: scope.onReInit or null
             onSetPosition: scope.onSetPosition or null
             pauseOnHover: scope.pauseOnHover isnt "false"
-            pauseOnHover: scope.pauseOnHover isnt "true"
+            pauseOnDotsHover: scope.pauseOnHover isnt "true"
             responsive: scope.responsive() or null
             rtl: scope.rtl is "true"
             slide: scope.slide or "div"

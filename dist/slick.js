@@ -100,7 +100,7 @@ angular.module('slick', []).directive('slick', [
               onReInit: scope.onReInit || null,
               onSetPosition: scope.onSetPosition || null,
               pauseOnHover: scope.pauseOnHover !== 'false',
-              pauseOnHover: scope.pauseOnHover !== 'true',
+              pauseOnDotsHover: scope.pauseOnHover !== 'true',
               responsive: scope.responsive() || null,
               rtl: scope.rtl === 'true',
               slide: scope.slide || 'div',
